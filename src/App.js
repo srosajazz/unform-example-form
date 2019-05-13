@@ -3,7 +3,7 @@ import { Form, Input, Scope } from "@rocketseat/unform";
 
 function App() {
   function handleSubmit(data) {
-    console.Console(data);
+    console.log(data);
   }
   return (
     <Form onSubmit={handleSubmit}>
